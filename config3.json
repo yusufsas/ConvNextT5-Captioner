@@ -1,0 +1,13 @@
+{
+  "captions_train": "captions_train2.csv",
+  "captions_val": "captions_val2.csv",
+  "image_dir": "/content/obss_data/train/train",
+  "max_seq_length": 64,
+  "image_size": 224,
+  "batch_size": 64,
+  "lr": 5e-5,
+  "num_epochs": 20,
+  "text_decoder": "t5-base",
+  "image_encoder": "convnextv2_base",
+  "save_path": "./last"
+}

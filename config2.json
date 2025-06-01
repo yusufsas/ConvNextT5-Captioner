@@ -1,0 +1,13 @@
+{
+  "captions_train": "captions_train.csv",
+  "captions_val": "captions_val.csv",
+  "image_dir": "/content/flickr8k/Images",
+  "max_seq_length": 64,
+  "image_size": 224,
+  "batch_size": 64,
+  "lr": 1e-5,
+  "num_epochs": 10,
+  "text_decoder": "t5-base",
+  "image_encoder": "convnextv2_base",
+  "save_path": "./checkpoint"
+}
