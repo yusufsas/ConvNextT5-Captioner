@@ -42,7 +42,7 @@ Adding multi-token visual embeddings or patch-wise features could improve contex
 
 Experimentation with larger T5 variants or additional normalization layers may enhance performance.
 
-
+![Proje Görseli](vision_image.png)
 
 ## Table of Contents
 - [Features](#features)
