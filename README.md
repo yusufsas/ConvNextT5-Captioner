@@ -27,7 +27,7 @@ The projected features are unsqueezed to simulate a sequence length of 1 token f
 The T5 decoder receives these encoded features along with text input tokens (input_ids) and attention masks.
 
 The model outputs caption tokens and computes the loss if target labels are provided.
-
+![Proje Görseli](project_image.png)
 Advantages
 Leverages state-of-the-art visual and language models pretrained on large datasets.
 
@@ -41,6 +41,8 @@ Visual features are represented as a single token, which might limit capturing s
 Adding multi-token visual embeddings or patch-wise features could improve contextual richness.
 
 Experimentation with larger T5 variants or additional normalization layers may enhance performance.
+
+
 
 ## Table of Contents
 - [Features](#features)
